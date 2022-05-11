@@ -90,7 +90,7 @@ class Field {
     }
 
     askQuestion() {
-        const answer = prompt('Find the Bitcoin and win').toUpperCase();
+        const answer = prompt('Find the Bitcoin and win:').toUpperCase();
         switch (answer) {
             case 'W':
                 this.locationX -= 1;
